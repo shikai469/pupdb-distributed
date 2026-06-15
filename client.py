@@ -6,7 +6,6 @@ def run_test():
     print("KỊCH BẢN KIỂM THỬ CƠ SỞ DỮ LIỆU PHÂN TÁN PUPDB")
     print("="*50)
 
-    # Client chỉ giao tiếp với Proxy Router duy nhất ở port 8000
     proxy_url = "http://localhost:8000"
     print(f"[*] Đang kết nối tới Proxy tại {proxy_url}...")
     
@@ -27,7 +26,7 @@ def run_test():
     for key, value in data_to_insert.items():
         print(f"-> Ghi: {key} = {value}")
         db.set(key, value)
-        time.sleep(0.5) # Dừng một chút để dễ quan sát log
+        time.sleep(0.5)
 
     print("\n--- 2. KIỂM TRA ĐỌC DỮ LIỆU BÌNH THƯỜNG ---")
     for key in data_to_insert.keys():
