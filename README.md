@@ -26,7 +26,7 @@ pip install filelock
 ## 4. Khởi chạy hệ thống
 Để mô phỏng mạng phân tán ở máy cục bộ (localhost), bạn cần mở 6 cửa sổ Terminal (hoặc Command Prompt) riêng biệt tại thư mục gốc của dự án và chạy các lệnh dưới đây theo đúng thứ tự:
 
-**Bước 1: Khởi động các Node lưu trữ (Storage Nodes)**
+- **Bước 1: Khởi động các Node lưu trữ (Storage Nodes)**
 
 Terminal 1: Khởi động Shard 0 Master
 
@@ -48,14 +48,14 @@ Terminal 4: Khởi động Shard 1 Slave
 ```bash
 python node_server.py 9002
 ```
-**Bước 2: Khởi động Bộ định tuyến trung tâm (Proxy Router)**
+- **Bước 2: Khởi động Bộ định tuyến trung tâm (Proxy Router)**
 
 Terminal 5: Khởi động Proxy
 
 ```bash
 python proxy_router.py
 ```
-**Bước 3: Chạy kịch bản kiểm thử (Test Client)**
+- **Bước 3: Chạy kịch bản kiểm thử (Test Client)**
 
 Terminal 6: Chạy Client để kiểm tra tính năng phân mảnh và chịu lỗi
 
