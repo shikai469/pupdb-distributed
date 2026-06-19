@@ -63,3 +63,9 @@ Terminal 6: Chạy Client để kiểm tra tính năng phân mảnh và chịu l
 python client.py
 ```
 💡 Mẹo kiểm thử Tính chịu lỗi: Khi chạy script ở Bước 3, hệ thống sẽ tạm dừng và yêu cầu bạn tắt thử 1 Node Master (bằng cách ấn Ctrl + C ở Terminal 1 hoặc 3). Sau khi tắt xong, ấn Enter ở Terminal 6 để thấy hệ thống tự động đọc dữ liệu từ Node Slave như thế nào!
+
+## 5. Video Demo Dự Án
+Bạn có thể xem trực tiếp quá trình chạy thử hệ thống và thử nghiệm tính năng chịu lỗi tại video dưới đây:
+
+https://github.com/user-attachments/assets/1df41441-0205-4056-bccf-0493dc9be44c
+
